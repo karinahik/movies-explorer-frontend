@@ -15,3 +15,9 @@
 
 ### Названия макета в фигме:
 - Light - 4
+
+### Ссылка на репозиторий:
+- https://karinahik.github.io/movies-explorer-frontend/
+
+### Ссылка на pull request:
+- 
