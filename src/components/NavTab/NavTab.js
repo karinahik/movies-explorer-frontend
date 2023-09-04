@@ -5,10 +5,22 @@ import { Link } from "react-scroll";
 function NavTab() {
   return (
     <nav className="nav-tab">
-      <Link to="about" className="nav-tab__link" smooth={true} duration={600}>
+      <Link
+        to="about"
+        type="button"
+        className="nav-tab__link"
+        smooth={true}
+        duration={600}
+      >
         О проекте
       </Link>
-      <Link to="techs" className="nav-tab__link" smooth={true} duration={600}>
+      <Link
+        to="techs"
+        type="button"
+        className="nav-tab__link"
+        smooth={true}
+        duration={600}
+      >
         Технологии
       </Link>
       <Link
@@ -16,6 +28,7 @@ function NavTab() {
         className="nav-tab__link"
         smooth={true}
         duration={600}
+        type="button" 
       >
         Студент
       </Link>

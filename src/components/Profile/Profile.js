@@ -7,8 +7,8 @@ function Profile() {
   return (
     <>
       {/* <Header /> */}
-      <section className="profile">
-        <h3 className="profile__title">Привет, Виталий!</h3>
+      <main className="profile">
+        <h1 className="profile__title">Привет, Виталий!</h1>
         <form id="form" className="profile__form" noValidate>
           <label className="profile__label">
             Имя
@@ -38,14 +38,14 @@ function Profile() {
             />
             <span className="profile__input-error"></span>
           </label>
-          <button type="submit" className="profile__button-save">
+          <button  type="submit" className="profile__button-save">
             Редактировать
           </button>
-          <Link to="/profile" type="button" className="profile__exit">
+          <Link to="/" type="button" className="profile__exit">
             Выйти из аккаунта
           </Link>
         </form>
-      </section>
+      </main>
     </>
   );
 }

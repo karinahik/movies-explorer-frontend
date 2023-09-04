@@ -114,7 +114,8 @@
 }
 
 .form__input:focus {
-  background-color: rgba(243, 193, 248, 0.5)
+  background-color: rgba(243, 193, 248, 0.5);
+  outline: 1px solid rgb(243, 193, 248);
 }
 
 .form__input_type_error {

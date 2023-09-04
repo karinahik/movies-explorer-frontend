@@ -26,7 +26,7 @@
 }
 
 .search__input {
-  background-image: url(../../images/serch.png);
+  background-image: url(../../images/serch.svg);
   background-repeat: no-repeat;
   background-position-x: 19px;
   background-position-y: center;
@@ -42,7 +42,7 @@
 .search__input:focus {
   background-color: rgba(243, 193, 248, 0.5);
   border: 9px;
-  outline: 0;
+  outline: 1px solid rgb(243, 193, 248);
   outline-offset: 0;
   color: #000;
 }
@@ -64,6 +64,7 @@ input:-ms-input-placeholder {
 }
 
 .search__button {
+  padding: 0;
   width: 78px;
   height: 34px;
   cursor: pointer;

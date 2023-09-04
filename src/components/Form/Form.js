@@ -9,7 +9,7 @@ function Form({ linkText, link, children, title, buttonText, question }) {
         <Link to="/" className="logo">
           <img src={logo} alt="Логотип приложения" />
         </Link>
-        <h3 className="form__title">{title}</h3>
+        <h1 className="form__title">{title}</h1>
         <form className="forma" id="form" noValidate>
           {children}
           <button type="submit" className="form__button-save">

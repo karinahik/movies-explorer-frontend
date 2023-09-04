@@ -61,7 +61,8 @@
 }
 
 .profile__input:focus {
-  background-color: rgba(243, 193, 248, 0.5)
+  background-color: rgba(243, 193, 248, 0.5);
+  outline: 1px solid rgb(243, 193, 248);
 }
 
 .profile__border {
@@ -96,6 +97,15 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.profile__exit:hover{
+  color: #8E3A97;
+  opacity: 0.8;
+}
+
+.profile__button-save:hover{
+  color: #8E3A97;
 }
 
 @media screen and (max-width: 1023px) {

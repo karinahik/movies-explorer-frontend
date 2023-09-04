@@ -9,6 +9,7 @@ function Navigation({ handleClose }) {
       <div className="navigation__overlay-container"></div>
       <div className="navigation__menu">
         <button
+          type="button"
           className="navigation__close-button"
           onClick={handleClose}
         ></button>
@@ -17,26 +18,33 @@ function Navigation({ handleClose }) {
             exact
             to="/"
             className="navigation__link"
-            activeclassname="navigation__link_active"
+            type="button"
+            /*activeClassName="navigation__link_active"*/
           >
             Главная
           </NavLink>
           <NavLink
             to="/movies"
             className="navigation__link"
-            activeclassname="navigation__link_active"
+            type="button"
+            /*activeClassName="navigation__link_active"*/
           >
             Фильмы
           </NavLink>
           <NavLink
             to="/saved-movies"
             className="navigation__link"
-            activeclassname="navigation__link_active"
+            type="button"
+            /*</nav>activeClassName="navigation__link_active"*/
           >
             Сохранённые фильмы
           </NavLink>
         </nav>
-        <Link to="/profile" className="navigation__account-button">
+        <Link
+          type="button"
+          to="/profile"
+          className="navigation__account-button"
+        >
           <img src={account} alt="Кнопка входа в аккаунт" />
         </Link>
       </div>

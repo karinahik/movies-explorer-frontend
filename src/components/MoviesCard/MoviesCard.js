@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import "./MoviesCard.css";
+import movies from "../../images/card-img.jpg";
 
 function MoviesCard() {
   const location = useLocation();
@@ -22,7 +23,7 @@ function MoviesCard() {
       {shouldShowSaveFilm() && (
         <li className="card">
           <div className="card__container">
-            <img alt="" className="card__image" />
+            <img src={movies} alt="" className="card__image" />
             <button
               type="button"
               className="cards__like-button cards__like-delite"
@@ -39,7 +40,7 @@ function MoviesCard() {
         <>
           <li className="card">
             <div className="card__container">
-              <img alt="" className="card__image" />
+              <img src={movies} alt="" className="card__image" />
               <button
                 type="button"
                 className="cards__like-button cards__like-active"
@@ -53,7 +54,7 @@ function MoviesCard() {
 
           <li className="card">
             <div className="card__container">
-              <img alt="" className="card__image" />
+              <img src={movies} alt="" className="card__image" />
               <button
                 type="button"
                 className="cards__like-button cards__like-active"
@@ -64,10 +65,10 @@ function MoviesCard() {
               </div>
             </div>
           </li>
-          
+
           <li className="card">
             <div className="card__container">
-              <img alt="" className="card__image" />
+              <img src={movies} alt="" className="card__image" />
               <button type="button" className="cards__like-button">
                 Сохранить
               </button>
@@ -77,10 +78,6 @@ function MoviesCard() {
               </div>
             </div>
           </li>
-
-    
-
-          
         </>
       )}
     </>
