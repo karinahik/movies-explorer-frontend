@@ -20,4 +20,4 @@
 - https://karinahik.github.io/movies-explorer-frontend/
 
 ### Ссылка на pull request:
-- 
+- https://github.com/karinahik/movies-explorer-frontend/pull/1
